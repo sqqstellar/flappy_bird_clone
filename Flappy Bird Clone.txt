@@ -1,0 +1,84 @@
+# Flappy Bird Clone
+
+A Python implementation of the classic Flappy Bird game using Pygame.
+
+## Description
+
+This is a clone of the popular Flappy Bird game where players control a bird that must fly between pipes without hitting them. The game features:
+
+- Animated bird with realistic rotation
+- Random pipe generation with varying gaps
+- Score tracking and high score system
+- Sound effects and background music
+- Smooth scrolling background and base
+
+## Requirements
+
+- Python 3.x
+- Pygame library
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/flappy-bird.git
+cd flappy-bird
+```
+
+2. Install Pygame:
+```bash
+pip install pygame
+```
+
+## How to Play
+
+1. Run the game:
+```bash
+python game.py
+```
+
+2. Game Controls:
+- Press SPACE to start the game
+- Press SPACE to make the bird flap
+- Press SPACE to restart after game over
+
+## Project Structure
+
+```
+flappy-bird/
+│
+├── game.py              # Main game file
+├── assets/             # Game graphics
+│   ├── background.png
+│   ├── base.png
+│   ├── bird-upflap.png
+│   ├── bird-midflap.png
+│   ├── bird-downflap.png
+│   └── pipe.png
+│
+├── audio/              # Game sounds
+│   ├── wing.wav
+│   ├── hit.wav
+│   ├── point.wav
+│   ├── die.wav
+│   └── background.wav
+│
+└── highscore.json      # High score storage
+```
+
+## Features
+
+- Smooth bird animation and rotation
+- Random pipe generation
+- High score system
+- Sound effects for:
+  - Wing flap
+  - Point scoring
+  - Collision
+  - Game over
+- Background music
+- Persistent high score saving
+
+## Credits
+
+Assets and original game concept by .GEARS (original Flappy Bird creator)
